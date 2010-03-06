@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	
+	
+  <title>Sotoodo</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link type="text/css" href="reset.css" rel="stylesheet" />
+  <!-- <link type="text/css" href="learn2.css" rel="stylesheet" /> -->
+<!-- <link type="text/css" href="learn2_real.css" rel="stylesheet" /> -->
+	<%= stylesheet_link_tag "reset", "application" %>
+</head>
+<body>
+	
+	<div id="navigation">
+		<h1 id="logout"><%= link_to "Logout", logout_path %></h1>
+		<h1 id='logo'>NOC</h1>
+		<ul>
+			<li>Home</li>
+			<li>Profile</li>
+			<li>Ideas</li>
+			<li>Network</li>
+		</ul>
+		<div class="clearfix"></div>
+	</div>  <!-- end of div#navigation -->
+	
+	<div id="content" class="clearfix">
+		<div id="navigation2">
+			<ul>
+				<li>Newsfeeds:</li>
+				<li>All</li>
+				<li>Ideas</li>
+				<li>Jobs</li>
+				<li>Networkings</li>
+			</ul>
+			<div class="clearfix"></div>
+		</div> <!-- end of #navigation2 -->
+		
+		<div class="clearfix" id="newsfeeds">
+			
+			<!-- BOOMB OOM BOOM BOOMB -->
+			<!-- This is the first newsfeed -->
+			<div class="newsfeed clearfix" id="feed_1">
+				
+				<div class="feed_pic_wrapper">
+					<img src="../images/panda.jpg" />
+				</div> <!-- end of div.feed_pic_wrapper -->
+				<div class="feed_pic_wrapper">
+					<img src="../images/david.jpg" />
+				</div> <!-- end of div.feed_pic_wrapper -->
+				
+				<div class="newsfeed-header">
+					faweuheaufhawe fiauehfiuaew fhaiuwhfiu aewfuhwuaiofouah haf ohwafoawehfa wfhaihfoia gfa 
+					afagy fawygf aowfgo a lorem
+				</div>
+				<div class="clearfix"></div>
+			</div> <!-- end of div.newsfeed (every newsfeed) -->
+			
+			
+			<!-- BOOMB OOM BOOM BOOMB -->
+			<!-- this is the second newsfeed -->
+			<div class="newsfeed clearfix" id="feed_2">
+				<div class="feed_pic_wrapper">
+					<img src="images/andrew.jpg" />
+				</div> <!-- end of div.feed_pic_wrapper -->
+
+				
+				<div class="newsfeed-header single-image">
+					Andrew crafted an idea: social networking for corporates and graduates
+					<div class="elaboration">
+						<div class="elaboration-image">
+							<img src="../images/elaboration.jpg">
+						</div> <!-- end of div.elaboration-image -->
+						<p>
+							<span>Gradkin: Brand-Match-Connect</span>
+							Where will you go as a graduate? Gradkin. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+						</p>
+						<ul class="comment clearfix">
+							<div>
+								<img src="../images/panda.jpg" class="comment-avatar" />
+								<p>
+									<span class="name">Panda Yuen</span>
+									Gradkin sucks balls
+								</p>
+							</div>
+							
+							<div>
+								<img src="../images/andrew.jpg" class="comment-avatar" />
+								<p>
+									<span class="name">Andrew C. Abraham</span>
+									Why do you think so?
+								</p>
+							</div>
+							
+							<div>
+								<img src="../images/chardy.jpg" class="comment-avatar" />
+								<p>
+									<span class="name">Chardy Wang</span>
+									Hey, we made it for Andrew!! damn! 
+								</p>
+							</div>
+							
+							
+						</ul> <!-- end of ul.comment -->
+					</div> <!-- end of div.elaboration -->
+				</div>
+				<div class="clearfix"></div>
+			</div> <!-- end of div.newsfeed (every newsfeed) -->
+			
+		
+			
+			<h1 id="read_more" class="clearfix">Read More</h1>
+		</div> <!-- end of div#newsfeeds -->
+	</div> <!-- end of #content -->
+</body>
+</html>

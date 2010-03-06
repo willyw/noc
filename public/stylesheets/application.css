@@ -1,0 +1,178 @@
+body {
+	font-family: Arial, "MS Trebuchet", sans-serif;
+/*	width: 1000px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 3px solid purple;*/
+}
+
+h1#logout {
+	float:right;
+	font-size: 1.5em;
+}
+div#navigation {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 30px;
+	/*border: 3px solid purple;*/  /*this is marker*/
+}
+
+.clearfix {
+	clear: both;
+}
+
+div#navigation> ul {
+/*	border: 1px solid #999; */ /*this is marker*/
+	float:left;
+	margin-top: 27px;
+}
+
+div#navigation>ul>li {
+	float:left;
+	margin: 5px 25px;
+/*	border: 1px dashed red;*/   /*this is marker*/
+	font-size: 4.1em;
+	color: rgb(150,150,150);
+}
+
+h1#logo{
+	background: url(../images/noc.jpg) no-repeat top left;
+	width: 195px;
+	height: 105px;
+	color: white;
+	font-size: 1px;
+	float: left;
+}
+
+/*For the div#content*/
+div#content {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 30px; /* delete this mate*/
+	/*border: 3px solid yellow; */ /*this is a marker*/
+}
+
+div#navigation2 > ul, div#navigation2>ul>li{ 
+	float:left;
+}
+div#navigation2 {
+/*	border: 1px dashed green; */ /*this is a marker*/
+	width: 650px;
+}
+
+div#navigation2 > ul > li {
+	font-size: 2em;
+	margin: 5px 15px;
+/*	border: 1px solid pink; */ /*this is a marker*/
+	color: rgb(150,150,150);;
+}
+
+
+/*Styling the newsfeeds*/
+div#newsfeeds {
+	font-size: 1.6em;
+	margin: 5px 15px;
+	/*border: 1px solid brown; *//* this is a marker*/
+	color: rgb(100,100,100);
+	width: 635px;
+}
+
+
+div.newsfeed{
+/*	background-color: green;*/
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+	border-bottom: 1px dashed red;
+	padding-top: 15px;
+}
+div.feed_pic_wrapper{
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+div.newsfeed-header {
+	/*border: 1px solid blue; */ /*a marker*/
+	float: left;
+	width: 500px;
+	margin-top :5px;
+	margin-left: 5px;
+}
+
+div.elaboration-image {
+	clear:both;
+	float:left;
+	margin-top: 10px;
+	padding-left: 10px;
+/*	border: 1px dashed black;*/  /*a marker*/
+	border-left: 2px solid rgb(200,200,200);
+}
+div.elaboration-image > img {
+	/*border: 1px solid #999;  */  /*this is a marker*/
+	padding: 2px;
+}
+
+div.single-image{
+	width: 555px;
+
+}
+
+/*TESTING THE CSS STRANGE*/
+
+/*div#feed_2 {
+	background-color: green;
+}
+
+div#feed_1 {
+	background-color: yellow;
+}*/
+
+div.elaboration > p > span {
+	display: block;
+	font-weight: bold;
+}
+
+div.elaboration > p {
+/*	border: 1px solid #999;*/  /*this is a marker*/
+	float: left;
+	margin-top: 10px;
+	padding-left: 10px;
+/*	border: 1px dashed black; */ /*this is a marker*/
+	width: 370px;
+}
+
+ul.comment {
+	/*border: 1px solid #999;*/  /*this is a marke*/r
+	padding-top: 5px;
+}
+
+ul.comment > div {
+/*	border: 1px solid red;  this is amarker*/
+}
+ul.comment > div + div {
+	/*border: 1px solid red;*/  /*a marker*/
+	clear: left;
+}
+
+ul.comment>div>img {
+	display: inline;
+	float:left;
+	margin: 5px;
+}
+
+ul.comment>div>p {
+	/*border: 1px solid #999; */  /*marker*/
+	float: left;
+	margin-top: 5px;
+	padding-left: 10px;
+/*	border: 1px dashed black;*/ /* marker*/
+	width: 370px;
+}
+
+ul.comment>div>p>span {
+	display:block;
+	font-weight: bold;
+}

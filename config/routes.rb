@@ -8,7 +8,9 @@ ActionController::Routing::Routes.draw do |map|
   map.logout "logout", :controller => "user_sessions", :action => "destroy"
   
   map.resource :account, :controller => 'users'
-  map.resources :users
+  map.resources :users do |users|
+    users.resources :profiles
+  end
 
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
